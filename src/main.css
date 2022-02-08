@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+/* Global styles start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/*------- Typography -------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 50px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 40px;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+h4 {
+  color: #505050;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+p {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0.5px;
+}
+
+/*------- Buttons -------*/
+
+/*------- General -------*/
+
+/* Global styles end */
+
+#about,
+#project,
+#team,
+#contact,
+footer {
+  background: #ffffff;
+}
+
+/*------- Menu ------*/
+
+/*------- Home ------*/
+
+/*------- About ------*/
+
+/*------- Project ------*/
+
+/*------- Team ------*/
+
+/*------- Contact ------*/
+
+/*------- Footer ------*/

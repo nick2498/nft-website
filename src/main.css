@@ -68,7 +68,22 @@ footer {
   background: #ffffff;
 }
 
-/*------- Menu ------*/
+/*------- Header section start ------*/
+.navbar .navbar-brand {
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  padding: 0;
+  text-transform: uppercase;
+  transition: all-ease-in 0.4s;
+}
+
+/*------- Header section end ------*/
 
 /*------- Home ------*/
 

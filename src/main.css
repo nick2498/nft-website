@@ -55,6 +55,52 @@ p {
 }
 
 /*------- Buttons -------*/
+.section-btn {
+  margin: 32px 0 0 0;
+  padding: 0;
+}
+
+.section-btn a {
+  color: #fff;
+  font-weight: normal;
+  line-height: 45px;
+  perspective: 1000px;
+}
+
+.section-btn a span {
+  position: relative;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  padding: 2px 27px;
+  background: #4dc47d;
+  border-radius: 1px;
+  transition: transform 0.3s;
+  transform-origin: 50% 0;
+  transform-style: preserve-3d;
+}
+
+.section-btn a span::before {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  background: #000;
+  border-radius: 1px;
+  padding: 2px 27px;
+  transition: background 0.3s;
+  transform: rotateX(-90deg);
+  content: attr(data-hover);
+  transform-origin: 50% 0;
+}
+
+.section-btn a:hover span,
+.section-btn a:focus span {
+  transform: rotateX(90deg) translateY(-22px);
+}
 
 /*------- General -------*/
 
@@ -70,13 +116,34 @@ footer {
 
 /*------- Header section start ------*/
 .navbar .navbar-brand {
-  font-weight: normal;
-  font-size: 25px;
+  font-weight: bolder;
+  font-size: 40px;
   color: #ffffff;
+  background-image: linear-gradient(
+    to left top,
+    #ef030b,
+    #e9003c,
+    #d6005d,
+    #b60079,
+    #8c008d,
+    #8230b3,
+    #664ed8,
+    #0068fa,
+    #00a1ff,
+    #00caff,
+    #00e8aa,
+    #06fc06
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.navbar .navbar-brand:hover {
+  color: #fff;
 }
 
 .navbar .navbar-nav .nav-link {
-  font-weight: normal;
+  font-weight: 600;
   font-size: 14px;
   letter-spacing: 0.5px;
   padding: 0;
@@ -103,6 +170,33 @@ footer {
   width: 100%;
   background: #fff;
   color: #fff;
+}
+
+.twitter .fa-twitter {
+  color: #fff;
+}
+
+.twitter .fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.discord .fa-discord {
+  color: #fff;
+}
+
+.discord .fa-discord:hover {
+  color: #5865f2;
+}
+
+.opensea img {
+  margin-top: -7px;
+  width: 24px;
+  height: auto;
+}
+
+.opensea img:hover {
+  background: #1da1f2;
+  border-radius: 50%;
 }
 /*------- Header section end ------*/
 
@@ -139,7 +233,7 @@ footer {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 #home h1 {
@@ -160,6 +254,15 @@ footer {
 /*------- Home section end ------*/
 
 /*------- About section start ------*/
+#about {
+  position: relative;
+}
+
+#about h3 {
+  font-size: 44px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
 /*------- About section end ------*/
 
 /*------- Team section start ------*/

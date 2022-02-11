@@ -138,9 +138,9 @@ footer {
   -webkit-background-clip: text;
 }
 
-.navbar .navbar-brand:hover {
+/* .navbar .navbar-brand:hover {
   color: #fff;
-}
+} */
 
 .navbar .navbar-nav .nav-link {
   font-weight: 600;
@@ -339,4 +339,104 @@ footer {
 /*------- FAQs section end ------*/
 
 /*------- Footer section start ------*/
+#footer .brand-img {
+  width: 10%;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+#footer .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#footer .navbar-brand {
+  font-weight: bolder;
+  font-size: 40px;
+  color: #ffffff;
+  background-image: linear-gradient(
+    to left top,
+    #ef030b,
+    #e9003c,
+    #d6005d,
+    #b60079,
+    #8c008d,
+    #8230b3,
+    #664ed8,
+    #0068fa,
+    #00a1ff,
+    #00caff,
+    #00e8aa,
+    #06fc06
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.twitter-f .fa-twitter {
+  color: #fff;
+}
+
+.twitter-f .fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.discord-f .fa-discord {
+  color: #fff;
+}
+
+.discord-f .fa-discord:hover {
+  color: #5865f2;
+}
+
+.opensea-f img {
+  margin-top: -7px;
+  width: 24px;
+  height: auto;
+}
+
+.opensea-f img:hover {
+  background: #1da1f2;
+  border-radius: 50%;
+}
+
+.instagram-f .fa-instagram {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.instagram-f .fa-instagram:hover {
+  background-image: linear-gradient(
+    to left bottom,
+    #405de6,
+    #5b51d8,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d,
+    #f56040,
+    #f77737,
+    #fcaf45,
+    #ffdc80
+  );
+  border-radius: 20%;
+  /* -webkit-text-fill-color: transparent; */
+  /* -webkit-background-clip: text; */
+}
+
+#footer h4 {
+  color: rgb(255, 255, 255);
+  text-decoration: 3px underline #ffffff;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.copyright {
+  text-transform: uppercase;
+}
 /*------- Footer section end ------*/

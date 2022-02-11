@@ -256,16 +256,83 @@ footer {
 /*------- About section start ------*/
 #about {
   position: relative;
+  background: #b180e9;
+}
+
+#about .row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#about h1 {
+  font-size: 2.5vw;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
 }
 
 #about h3 {
-  font-size: 44px;
+  font-size: 2.4vw;
   letter-spacing: 4px;
   text-transform: uppercase;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+  grid-gap: 1rem;
+}
+
+.about-grid img {
+  width: 90%;
+  margin: 10px;
+  border-radius: 5%;
+  border-width: 1vw;
+  border-style: double;
+  border-color: rgb(233, 128, 8);
+  object-fit: contain;
 }
 /*------- About section end ------*/
 
 /*------- Team section start ------*/
+#team {
+  background: #c7c5c9;
+}
+
+#team .text-center {
+  font-weight: bold;
+  font-size: 44px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.team-grid {
+  /* display: grid;
+  text-align: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem; */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.team-image img {
+  width: 50%;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.team-text h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.team-text h3 {
+  font-size: x-large;
+  margin-top: -10px;
+}
 /*------- Team section end ------*/
 
 /*------- FAQs section start ------*/

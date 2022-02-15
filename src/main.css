@@ -593,13 +593,24 @@ footer {
     font-size: 14px;
   }
 
+  #about .row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+
   .about-text h1 {
-    text-align: justify;
     line-height: 2rem;
   }
 
-  .about-grid {
-    gap: 0.5rem;
+  .about-grid img {
+    width: 70%;
+  }
+
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
   }
 
   #footer .brand-img {

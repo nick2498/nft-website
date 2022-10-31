@@ -33,4 +33,4 @@ maximum display size to ensure usability and satisfaction.
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Website Preview🚀
-![Alt Text](https://github.com/nick2498/nft-website/blob/main/img/website-preview.jpeg)
+![Alt Text](https://github.com/nick2498/nft-website/blob/main/src/images/website-preview.jpeg)

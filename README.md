@@ -1,14 +1,9 @@
 # GoofyPigs
 
 ## About🚀
-```
-An amazing NFT website built using HTML, CSS, and Bootstrap.
-
-I make it responsive because responsive design is an approach 
-to web design that aims to make web pages render well on a 
-variety of devices and window or screen sizes from minimum to 
-maximum display size to ensure usability and satisfaction. 
-```
+- **Feature:** UI design.
+- **Tech Stack:** HTML, CSS, and Bootstrap.
+- **Contribution:** Built a responsive website for my NFT project, using HTML and modern CSS techniques such as Grid, Flexbox, pseudo-selectors, and animation. I make it responsive because responsive design is an approach to web design that aims to make web pages render well on a variety of devices and window or screen sizes from minimum to maximum display size to ensure usability and satisfaction. 
 
 ## Creator⭐
 **👨‍💻 Naitik Gupta** 
